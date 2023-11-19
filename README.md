@@ -52,7 +52,7 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 * ¿Qué es el runtime y que implica seleccionarlo al momento de crear el Function App?
   - Esla version de entorno en la cual se va a ejectuar la Function App, donde dicho entorno contiene bibliotecas, servicios y otras configuraciones necesarias para correr las funciones montadas en el azure function. Esto tiene implicaciones en cuanto a rendimiento y compatibilidad, ya que hay runtimes que pueden admitir cualquier version de algun lenguaje de programación, como tambien hay otros runtime que solo admiten las versiones más recientes de los lenguajes de programación.
 * ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
-  - 
+  - permite el almacenamiento de datos u otros recursos asociados con las funciones creadas, tambien se permite una mejor escalabilidad.
 * ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.
   - Existen cuatro tipos de planes para las Function App, los cuales son Plan de consumo, Plan Premium, Plan de azure App service y Azure Container Apps.
     
