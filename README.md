@@ -1,6 +1,9 @@
 ### Escuela Colombiana de Ingeniería
 ### Arquitecturas de Software - ARSW
 
+
+### Santiago Forero Yate, Juan Sebastian Cepeda Saray
+
 ## Escalamiento en Azure con Maquinas Virtuales, Sacale Sets y Service Plans
 
 ### Dependencias
@@ -51,8 +54,25 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 * ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
   - 
 * ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.
-  - Existen cuatro tipos de planes para las Function App, los cuales son Plan de consumo, Plan Premium, Plan de azure service y Azure Container Apps
-    
+  - Existen cuatro tipos de planes para las Function App, los cuales son Plan de consumo, Plan Premium, Plan de azure App service y Azure Container Apps
+    >
+    > **Plan de Consumo**
+    >
+    > Este plan solo realiza cobros por los recursos de procesos cuando estos se esten utilizando 
+    >
+    > **Plan Premium**
+    > Ejecución de las funciones inactivas por algun tiempo sin generar alguna demora
+    > Ejecución de instancias de manera mucho más eficaz.
+    > Permite la conexión a redes virtuales
+    >
+    > **PLan de Azure App Service**
+    > Ejecución de las Function App con tarifas de App service 
+    > Uso de este plan dependiendo de la duración y cuando se requieran mayores costes y un escalado predictivo
+    > 
+    > **Azure Container Apps**
+    > Plan para arquitecturas de Microservicios, red coherente, observabilidad y configuraciones de facturación
+    >
 * ¿Por qué la memoization falla o no funciona de forma correcta?
 * ¿Cómo funciona el sistema de facturación de las Function App?
+  - De acuerdo al plan seleccionado, de los cuales ya se menciono anteriormente, se realiza el correspondiente cobro a la empresa benificiaria del servicio.
 * Informe
