@@ -40,7 +40,7 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 ![](images/part3/part3-test-function.png)
 
 - Function App Creada para el laboratorio
-
+![image](https://github.com/santiforero1018/LAB10_ARSW/assets/88952698/47ee67cc-e446-4e71-a107-3b5d70d0ae71)
 
 5. Modifique la coleción de POSTMAN con NEWMAN de tal forma que pueda enviar 10 peticiones concurrentes. Verifique los resultados y presente un informe.
 
