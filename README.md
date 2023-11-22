@@ -45,8 +45,11 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 5. Modifique la coleción de POSTMAN con NEWMAN de tal forma que pueda enviar 10 peticiones concurrentes. Verifique los resultados y presente un informe.
 
   - Se usa el comando `newman run ARSW_LOAD-BALANCING_AZURE.postman_collection.json -e [ARSW_LOAD-BALANCING_AZURE].postman_environment.json -n 10` para realizar las pruebas correspondientes.
+      ![image](https://github.com/santiforero1018/LAB10_ARSW/assets/89321404/936cda59-5fc2-4997-bf7e-94a703d92902)
 
-7. Cree una nueva Function que resuleva el problema de Fibonacci pero esta vez utilice un enfoque recursivo con memoization. Pruebe la función varias veces, después no haga nada por al menos 5 minutos. Pruebe la función de nuevo con los valores anteriores. ¿Cuál es el comportamiento?.
+
+6. Cree una nueva Function que resuleva el problema de Fibonacci pero esta vez utilice un enfoque recursivo con memoization. Pruebe la función varias veces, después no haga nada por al menos 5 minutos. Pruebe la función de nuevo con los valores anteriores. ¿Cuál es el comportamiento?.
+  ![image](https://github.com/santiforero1018/LAB10_ARSW/assets/89321404/5a402b25-de47-4d86-a139-44a2e8692d3f)
 
 **Preguntas**
 
@@ -85,3 +88,6 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 * ¿Cómo funciona el sistema de facturación de las Function App?
   - De acuerdo al plan seleccionado, de los cuales ya se menciono anteriormente, se realiza el correspondiente cobro a la empresa benificiaria del servicio.
 * Informe
+  Podemos observar que es mucho más rapida la función concurrente pero muestra una falla al tener numeros muy grandes.
+  ![image](https://github.com/santiforero1018/LAB10_ARSW/assets/89321404/56c25912-eebb-4490-96ed-4436526d5a94)
+
