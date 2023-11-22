@@ -87,7 +87,9 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 * ¿Por qué la memoization falla o no funciona de forma correcta?
 * ¿Cómo funciona el sistema de facturación de las Function App?
   - De acuerdo al plan seleccionado, de los cuales ya se menciono anteriormente, se realiza el correspondiente cobro a la empresa benificiaria del servicio.
-* Informe
+* Informe:
   Podemos observar que es mucho más rapida la función concurrente pero muestra una falla al tener numeros muy grandes.
   ![image](https://github.com/santiforero1018/LAB10_ARSW/assets/89321404/56c25912-eebb-4490-96ed-4436526d5a94)
+  ![image](https://github.com/santiforero1018/LAB10_ARSW/assets/89321404/c183500d-822b-4b7c-9ec0-4302247bbfbf)
+
 
